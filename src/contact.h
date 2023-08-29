@@ -14,8 +14,8 @@ typedef struct{
 void interface();
 void show_contacts(contact *contacts,int *num_contact);
 void add_contact(contact *contacts,int *max_contact, int *num_contact);
-void update_contact();
-void delete_contact();
+void update_contact(int id, contact *contacts,int *num_contact);
+void delete_contact(int id, contact *contacts,int *num_contact);
 void show_contact();
 void search_contact(contact *contacts,int *num_contact);
 void search(contact *contacts,int *num_contact);
